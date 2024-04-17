@@ -1,2 +1,4 @@
 # pythonbasicsproject
-pythonbasicprojects
+actually mai chahta hu ki jo mera website hai usko mai local pc ko hi server banakar chalau mai koi server nahi kharidna chahta hu uske liye kyuki ye kisi ek particular site ke liye hi website chahiye to to agar mai iske liye server purchase karu to usme jyada paisa kharch honge. to mai actually xampp me hi run karunga apna website. to isse issue ye ho rha hai ki jo humara website hai wo secure nahi hai https se. to ise secure banane ke liye hum ssl certificate generate krenge jo ki .crt hota hai certificate ke liye aur .pem file hota hai ket ke liye. so in files ko generate karne ke liye mai simply mai apne pc me openssl install karunga jo ki mere pc me yaha par is location me C:\Program Files\OpenSSL-Win64. 
+
+openssl req -new -newkey rsa:2048 -nodes -keyout my_key.pem -x509 -days 365 -out my_certificate.crt
